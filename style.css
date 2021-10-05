@@ -169,6 +169,51 @@ body{
   transition-duration: 2s
 }
 
+@media screen and (max-width: 720px) {
+  .container-banner{
+    max-width: 60rem;
+  }
+  .home .header .nav{
+    display: none;
+    
+  }
+  .banner-det{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .home .header .nav ul{
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+  .home .header .nav ul li{
+    display: block;
+    margin-top: 15px;
+  }
+  .home .header ul li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .row-banners{
+    flex-wrap: wrap;
+    flex-direction:column ;
+  }
+  .banner-img{
+    padding: 20px 10px;
+  }
+  .footer{
+    display: none;
+   }
+   
+
+  }
 
 
 
