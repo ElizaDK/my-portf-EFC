@@ -112,6 +112,7 @@ body{
 .container-banner{
   width: 1170px;
   margin: auto;
+  text-align:center;
 }
 .container-banner h1{
   text-align: center;
