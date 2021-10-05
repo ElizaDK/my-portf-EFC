@@ -1,0 +1,188 @@
+:root{
+  --color-primary:(#df3a3a);
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.349);
+}
+
+/*
+* Pagina index
+*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.container h1{
+  font-size: 45px;
+  font-weight: 600;
+}
+.container h2{
+  font-size: 45px;
+  font-weight: 400;
+}
+.container .row-img  img{
+  width: 450px;
+  margin-left: 20px;
+}
+.container .name-dest{
+  color: #df3a3a;
+}
+.container .btn{
+  display: block;
+  border: 1px solid rgb(214, 28, 28);
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(214, 28, 28);
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 15px;
+  outline: none;
+}
+.container .btn:hover{
+  
+  color: rgb(235, 5, 5);
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+
+
+
+
+
+/*
+* Pagina portfolio
+*/
+
+
+.icon{
+  font-size: 22px;
+}
+.icon:hover{
+  color: #df3a3a;
+}
+
+.home .header .nav{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.349);
+  box-shadow: 0 2px 3px #575757;
+  padding-top: 15px;
+}
+.home .header .nav ul{
+  display: flex;
+  list-style: none;
+}
+.home .header .nav ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  flex-wrap: wrap;
+}
+.home .header .nav ul li a{
+  color:#000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 8px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.home .header .nav ul li a:hover{
+  color: #ccc;
+}
+.container-banner{
+  width: 1170px;
+  margin: auto;
+}
+.container-banner h1{
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+.container-banner .row-banners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container-banner .banner-det{
+  width: 40%;
+  text-align: justify;
+  padding-right: 20px;
+  
+}
+.container-banner .button-p{
+  display: block;
+  border: 1px solid rgb(36, 35, 35);
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(17, 1, 1);
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;  
+  outline: none;
+}
+.container .button-p:hover{
+  color: #fff;
+  background-color:rgb(214, 28, 28);
+  cursor: pointer;
+  
+}
+.container-banner .banner-img{
+  flex-wrap: wrap;
+  display: flex;
+  height: 250px;
+  width: 450px;
+  border-radius: 10px;
+}
+.container-banner .banner-img img{
+  width: 100%;
+}
+.container-banner .row-banners{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+.container-banner .row-banners .banner-img:hover{
+  transform: scale(1.1);
+  transition-duration: 2s
+}
+
+
+
+
+/*
+* Pagina portfolio footer
+*/
+
+.footer {
+  width: auto;
+  background-color: black;
+  color: #fff;
+  height: 60px;
+}
+.footer p{
+  text-align: center;
+  padding: 20px 0;
+}
